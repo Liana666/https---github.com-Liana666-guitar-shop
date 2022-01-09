@@ -6,6 +6,7 @@ class Products {
         this.labelRemove = 'Удалить из корзины'
     }
 
+
     changeProductsLocalStorage(element, id) {
         const { pushProduct, products } = localstorageutil.putProducts(id)
         if (pushProduct) {
