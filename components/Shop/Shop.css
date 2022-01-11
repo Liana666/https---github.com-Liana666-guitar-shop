@@ -1,0 +1,41 @@
+.shop-container {
+    width: 97%;
+    height: 97vh;
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+
+    padding: var(--spacing-large);
+
+    background: #fff;
+}
+
+.shop-element__name {
+    padding: var(--spacing-medium);
+}
+
+.shop-element__name span{
+    font-weight: bold;
+}
+
+.shop-element__price {
+    padding: var(--spacing-medium);
+    color: var(--color-unaccent);
+}
+
+.shop-close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    right: 20px;
+
+    background-image: url(img/close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    cursor: pointer;
+}

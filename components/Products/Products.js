@@ -16,6 +16,7 @@ class Products {
             element.classList.remove(this.activeClass)
             element.innerHTML = this.labelAdd
         }
+        headerPage.render(products.length)
     }
 
     render() {
@@ -58,5 +59,3 @@ class Products {
 }
 
 const productPage = new Products()
-
-productPage.render()
